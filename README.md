@@ -27,9 +27,6 @@ Instead of a standard 1D array, a **multivariate tensor** of shape `(2, 512)` is
 ## Results and Visualization
 The model generates predictions as **statistical quantiles** (10th, 50th, and 90th percentiles), allowing for a nuanced understanding of market risk.
 
-### Multivariate Dashboard
-![Multivariate Forecast Dashboard](link-to-your-dashboard-screenshot.png)
-*Note: The top graph depicts price targets, while the bottom graph depicts predicted market activity (volume), showing how the model expects these two variables to interact.*
 
 ### Analysis of the "Chronos Advantage"
 * **Retention of Volatility:** Unlike the LSTM, which produced a smoothed moving average, Chronos preserves the "jagged" nature of market data, reflecting more realistic future scenarios.
