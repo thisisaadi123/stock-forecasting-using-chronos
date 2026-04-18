@@ -1,5 +1,5 @@
 
-# Zero-Shot Multivariate Forecasting with Chronos-v2 (Bolt)
+# Zero-Shot Multivariate Forecasting with Chronos (Bolt)
 
 ## Overview
 This project implements a high-fidelity financial forecasting pipeline using **Amazon’s Chronos-v2 (Bolt)** foundation model. Unlike traditional LSTM-based architectures that require extensive training and hyperparameter tuning, Chronos-v2 leverages a transformer-based architecture pretrained on billions of time-series data points to perform zero-shot inference.
